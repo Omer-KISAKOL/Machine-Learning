@@ -7,13 +7,6 @@ cap.set(4, 720)
 classNames = []
 classFile = 'coco1.names'
 
-"""
-Bu metodlar bir dizenin sol ve/veya sağ tarafındaki boş karakterleri kaldırır. 
-lstrip soldan, rstrip sağdan, strip ise her iki yandan boşlukları temizler. 
-Boş karakterlere sadece boşluk (” “) değil, tab (“\t”) ve satırbaşı (“\n”) da dahildir. 
-Bu metodlar özellikle bir dosya satır satır okunurken işe yarar.
-"""
-
 with open(classFile, 'rt') as f:
         classNames = f.read().rstrip('\n').split('\n')
 #print(classNames)
