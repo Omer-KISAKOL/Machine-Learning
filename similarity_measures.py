@@ -1,6 +1,7 @@
 from math import*
 from decimal import Decimal
 
+
 class Benzerlik():
     def oklit(self, x, y):
         return sqrt(sum(pow(a-b,2) for a,b in zip(x,y)))
