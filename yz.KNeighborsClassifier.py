@@ -30,4 +30,5 @@ sns.heatmap(conf_mat, annot = True, fmt = 'd')
 
 plt.ylabel('Gerçek')
 plt.xlabel('Tahmin')
+
 plt.show()
