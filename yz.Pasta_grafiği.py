@@ -11,5 +11,4 @@ plt.axis('equal')
 #merkezDaire = plt.Circle((0,0),0.7,fc = 'white')
 #sekil = plt.gcf()
 #sekil.gca().add_artist(merkezDaire)
-
 plt.show()
