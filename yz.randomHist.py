@@ -9,5 +9,4 @@ s = pd.Series(values)
 s.plot(kind = 'hist', title = 'Normally distributed random values') 
 
 plt.show()
-
 print(s.describe())
