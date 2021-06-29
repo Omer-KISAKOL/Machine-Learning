@@ -1,6 +1,5 @@
 from similarity_measures import Benzerlik
 
-
 def main():
     measures = Benzerlik()
     
