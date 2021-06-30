@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 
 np.random.seed(145)
-
 veriSeti = pd.read_csv('SISA.csv')
 
 #print(veriSeti.head(3))
