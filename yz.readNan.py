@@ -10,5 +10,4 @@ veriSeti = pd.read_csv('SISA.csv')
 veriSeti.fillna(0, inplace = True)
 
 features = veriSeti.iloc[:,2:36]
-
 classes = veriSeti.Hospitalized
