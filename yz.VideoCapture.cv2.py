@@ -25,7 +25,6 @@ while True:
     classIds, confs, bbox = net.detect(img, confThreshold = 0.5)
 
     print(classIds, bbox)
-    
     if len(classIds) != 0:
         for classId, confidence, box in zip(classIds.flatten(),confs.flatten(), bbox):
             cv2.rectangle(img, box, color = (0,255,0), thickness = 2)
