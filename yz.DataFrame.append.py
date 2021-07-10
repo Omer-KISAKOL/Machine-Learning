@@ -16,5 +16,4 @@ vs = vs1.append(vs2, ignore_index = True)
 print(vs,'\n')
 
 vs.fillna(0, inplace=True)
-
 print(vs)
